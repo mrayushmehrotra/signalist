@@ -10,7 +10,7 @@ import { useState } from "react";
 import * as PopoverPrimitive from "@radix-ui/react-popover";
 import { Command as Command$1 } from "cmdk";
 import countryList from "react-select-country-list";
-import { s as signUp } from "./router-9Tdca3nC.js";
+import { s as signUp } from "./router-Dv9kToH9.js";
 import { toast } from "sonner";
 import "@radix-ui/react-slot";
 import "class-variance-authority";

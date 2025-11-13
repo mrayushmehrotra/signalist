@@ -14,7 +14,7 @@ import {
 } from "./ui/dropdown-menu";
 import { Button } from "./ui/button";
 import { PropsWithChildren } from "react";
-import { MenuIcon } from "../../public/icons";
+import { MenuIcon } from "./icons";
 // TODO: work here
 
 export const SidebarMenu = () => {
@@ -23,7 +23,7 @@ export const SidebarMenu = () => {
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
         <Button className="bg-slate-900 text-white" variant="outline">
-          {Menuicon}
+          {<Menuicon />}
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent className="w-56" align="start">

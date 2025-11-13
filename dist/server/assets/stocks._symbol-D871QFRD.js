@@ -2,7 +2,7 @@ import { jsx, jsxs } from "react/jsx-runtime";
 import { T as TradingViewWidget } from "./TradingViewWidget-CkLwnamb.js";
 import { useState, useMemo } from "react";
 import { S as SYMBOL_INFO_WIDGET_CONFIG, C as CANDLE_CHART_WIDGET_CONFIG, B as BASELINE_WIDGET_CONFIG, b as TECHNICAL_ANALYSIS_WIDGET_CONFIG, d as COMPANY_PROFILE_WIDGET_CONFIG, e as COMPANY_FINANCIALS_WIDGET_CONFIG } from "./constants-BeZ-diu8.js";
-import { R as Route } from "./router-9Tdca3nC.js";
+import { R as Route } from "./router-Dv9kToH9.js";
 import "clsx";
 import "tailwind-merge";
 import "@tanstack/react-router";

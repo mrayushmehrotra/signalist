@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && tsc --noEmit",
-    "start": "node .output/server/index.mjs"
+    "start": "node .output/server/index.mjs",
+    "netlify:build": "vite build"
   },
   "dependencies": {
     "@radix-ui/react-avatar": "^1.1.10",

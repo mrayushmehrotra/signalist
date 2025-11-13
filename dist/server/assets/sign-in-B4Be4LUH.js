@@ -3,7 +3,7 @@ import { useNavigate, Link } from "@tanstack/react-router";
 import { useForm } from "react-hook-form";
 import { B as Button } from "./button-C52Q1qbL.js";
 import { I as InputField, F as FooterLink } from "./FooterLink-Bv9NcRnk.js";
-import { a as authClient, b as signIn } from "./router-9Tdca3nC.js";
+import { a as authClient, b as signIn } from "./router-Dv9kToH9.js";
 import { toast } from "sonner";
 import "@radix-ui/react-slot";
 import "class-variance-authority";

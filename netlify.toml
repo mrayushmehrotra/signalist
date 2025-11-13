@@ -1,4 +1,11 @@
 [build]
-    base = "apps/frontend"
     command = "pnpm run build"
     publish = "dist/client"
+
+[functions]
+    directory = "dist/server"
+
+[[redirects]]
+    from = "/*"
+    to = "/.netlify/functions/server"
+    status = 200

@@ -537,24 +537,14 @@ const HomeContent = () => {
             /* @__PURE__ */ jsx("p", { children: "+2.90%" })
           ] })
         ] }),
-        /* @__PURE__ */ jsxs(Card, { title: "Real-Time AI Signals", className: "md:col-span-1", children: [
-          /* @__PURE__ */ jsxs("div", { className: "flex flex-wrap gap-2", children: [
-            /* @__PURE__ */ jsx("span", { className: "tag bg-teal-600/50 text-teal-300 border border-teal-500/50", children: "TSLA (Strong Buy)" }),
-            /* @__PURE__ */ jsx("span", { className: "tag bg-green-600/50 text-green-300 border border-green-500/50", children: "TGT (Buy)" }),
-            /* @__PURE__ */ jsx("span", { className: "tag bg-yellow-600/50 text-yellow-300 border border-yellow-500/50", children: "BABA (Hold)" }),
-            /* @__PURE__ */ jsx("span", { className: "tag bg-red-600/50 text-red-300 border border-red-500/50", children: "AMC (Sell)" }),
-            /* @__PURE__ */ jsx("span", { className: "tag bg-indigo-600/50 text-indigo-300 border border-indigo-500/50", children: "MSFT (Buy)" }),
-            /* @__PURE__ */ jsx("span", { className: "tag bg-red-800/50 text-red-300 border border-red-600/50", children: "RIVN (Strong Sell)" })
-          ] }),
-          /* @__PURE__ */ jsx("style", { jsx: true, children: `
-              .tag {
-                padding: 4px 10px;
-                border-radius: 6px;
-                font-size: 0.8rem;
-                font-weight: 500;
-              }
-            ` })
-        ] }),
+        /* @__PURE__ */ jsx(Card, { title: "Real-Time AI Signals", className: "md:col-span-1", children: /* @__PURE__ */ jsxs("div", { className: "flex flex-wrap gap-2", children: [
+          /* @__PURE__ */ jsx("span", { className: "tag bg-teal-600/50 text-teal-300 border border-teal-500/50", children: "TSLA (Strong Buy)" }),
+          /* @__PURE__ */ jsx("span", { className: "tag bg-green-600/50 text-green-300 border border-green-500/50", children: "TGT (Buy)" }),
+          /* @__PURE__ */ jsx("span", { className: "tag bg-yellow-600/50 text-yellow-300 border border-yellow-500/50", children: "BABA (Hold)" }),
+          /* @__PURE__ */ jsx("span", { className: "tag bg-red-600/50 text-red-300 border border-red-500/50", children: "AMC (Sell)" }),
+          /* @__PURE__ */ jsx("span", { className: "tag bg-indigo-600/50 text-indigo-300 border border-indigo-500/50", children: "MSFT (Buy)" }),
+          /* @__PURE__ */ jsx("span", { className: "tag bg-red-800/50 text-red-300 border border-red-600/50", children: "RIVN (Strong Sell)" })
+        ] }) }),
         /* @__PURE__ */ jsx(Card, { title: "Personalized Insights", children: /* @__PURE__ */ jsxs("div", { className: "flex items-center space-x-4", children: [
           /* @__PURE__ */ jsx("div", { className: "w-16 h-16 rounded-full bg-cyan-700/50 flex items-center justify-center p-2", children: /* @__PURE__ */ jsx(Activity, { className: "w-full h-full text-cyan-300" }) }),
           /* @__PURE__ */ jsx("p", { className: "text-sm text-gray-300", children: "Weekly volatility data exceeds typical thresholds for your tracked sectors." }),

@@ -69,7 +69,7 @@ function NotFound({ children }) {
     ] })
   ] });
 }
-const appCss = "/assets/app-BcL1N-pC.css";
+const appCss = "/assets/app-CPeNl7sH.css";
 const seo = ({
   title,
   description,
@@ -221,15 +221,15 @@ function RootDocument({ children }) {
     ] })
   ] });
 }
-const $$splitComponentImporter$5 = () => import("./sign-up-BW-0orbk.js");
+const $$splitComponentImporter$5 = () => import("./sign-up-BjqNAedi.js");
 const Route$5 = createFileRoute("/sign-up")({
   component: lazyRouteComponent($$splitComponentImporter$5, "component")
 });
-const $$splitComponentImporter$4 = () => import("./sign-in-CNkt_WRf.js");
+const $$splitComponentImporter$4 = () => import("./sign-in-B4Be4LUH.js");
 const Route$4 = createFileRoute("/sign-in")({
   component: lazyRouteComponent($$splitComponentImporter$4, "component")
 });
-const $$splitComponentImporter$3 = () => import("./main-5KOYDVcY.js");
+const $$splitComponentImporter$3 = () => import("./main-D59bdG3N.js");
 const Route$3 = createFileRoute("/main")({
   component: lazyRouteComponent($$splitComponentImporter$3, "component")
 });
@@ -237,11 +237,11 @@ const $$splitComponentImporter$2 = () => import("./_pathlessLayout-BhrcpZGS.js")
 const Route$2 = createFileRoute("/_pathlessLayout")({
   component: lazyRouteComponent($$splitComponentImporter$2, "component")
 });
-const $$splitComponentImporter$1 = () => import("./index-BMx_mDX-.js");
+const $$splitComponentImporter$1 = () => import("./index-DJd1UAQf.js");
 const Route$1 = createFileRoute("/")({
   component: lazyRouteComponent($$splitComponentImporter$1, "component")
 });
-const $$splitComponentImporter = () => import("./stocks._symbol-CX2YZ8KZ.js");
+const $$splitComponentImporter = () => import("./stocks._symbol-D871QFRD.js");
 const Route = createFileRoute("/stocks/$symbol")({
   component: lazyRouteComponent($$splitComponentImporter, "component")
 });
