@@ -1,0 +1,5 @@
+
+
+> trading-screen@ build /home/ayush/open/Signalist/apps/frontend
+> vite build && tsc --noEmit
+
