@@ -2943,7 +2943,7 @@ function getResponse() {
   return event._res;
 }
 async function getStartManifest() {
-  const { tsrStartManifest } = await import("./assets/_tanstack-start-manifest_v-AEhlVG5o.js");
+  const { tsrStartManifest } = await import("./assets/_tanstack-start-manifest_v-Ckmh_7W2.js");
   const startManifest = tsrStartManifest();
   const rootRoute = startManifest.routes[rootRouteId] = startManifest.routes[rootRouteId] || {};
   rootRoute.assets = rootRoute.assets || [];
